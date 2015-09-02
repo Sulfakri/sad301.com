@@ -1,0 +1,27 @@
+{
+  "locals": {
+    "url": "http://localhost:9096",
+    "name": "Unwritten Things",
+    "owner": "sad301",
+    "description": "It's a blog - written by a lazy blogger"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 3
+  },
+  "port": 9096
+}
