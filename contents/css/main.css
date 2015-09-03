@@ -212,10 +212,18 @@ footer .copy, footer .copy a {
 }
 
 .article header .date span {
-  /*background-color: #f8f8f8;*/
   background-color: #eee;
   padding: 0 0.7em;
 }
+
+/* --- added by sadlie --- */
+
+.article .content p {
+  text-indent: .9cm;
+  text-align: justify;
+}
+
+/* --- eol --- */
 
 .article.intro .content p {
   display: inline;
@@ -229,7 +237,12 @@ footer .copy, footer .copy a {
 
 .article .content img {
   display: block;
-  width: 100%;
+  /*width: 100%;*/
+  /* --- modified by sadlie --- */
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 .more, .date {
