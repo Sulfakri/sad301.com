@@ -7,6 +7,8 @@ template: article.jade
 
 [NodeJS][1] adalah platform perangkat lunak untuk pengembangan aplikasi _server-side_ yang menggunakan bahasa pemrograman Javascript. Yang menarik dari software ini adalah, kita dapat menjalankan web server didalam komputer tanpa perlu menggunakan software tambahan seperti Apache Web Server atau sejenisnya.
 
+<span class="more"></span>
+
 Dengan mengkombinasikan Raspberry Pi dengan Node.js, kita bisa membangun sebuah web server lokal berskala kecil.
 
 Berikut ini adalah langkah-langkah instalasi Node.js di Raspberry Pi.

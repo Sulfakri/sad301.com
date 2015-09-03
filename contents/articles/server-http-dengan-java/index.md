@@ -7,6 +7,8 @@ template: article.jade
 
 Segala sesuatu yang "berbasis web" pastinya tidak akan terlepas dari yang namanya server HTTP, baik itu di skala internet, intranet atau bahkan localhost sekalipun. Server HTTP adalah program yang dapat menerima permintaan _(request)_ pada protokol HTTP, dan memberikan balasan _(response)_ atas permintaan tersebut.
 
+<span class="more"></span>
+
 Sebenarnya program jenis ini cukup mudah ditemukan, jika anda terbiasa membuat website dengan PHP pasti sudah familiar dengan yang namanya [Apache HTTPD](http://httpd.apache.org/), atau kalau anda programmer java web, pasti sudah kenal dengan [Apache Tomcat](http://tomcat.apache.org/) atau [Glassfish](https://glassfish.java.net/).
 
 ## The Story Behind

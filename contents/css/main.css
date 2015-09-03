@@ -216,23 +216,20 @@ footer .copy, footer .copy a {
   padding: 0 0.7em;
 }
 
-/* --- added by sadlie --- */
-
-.article .content p {
-  text-indent: .9cm;
-  text-align: justify;
-}
-
-/* --- eol --- */
-
 .article.intro .content p {
-  display: inline;
+  display: block;
+  text-indent: justify;
 }
 
 .article.intro .content .more {
   text-decoration: underline;
   font-weight: 700;
   padding-left: 0.3em;
+}
+
+.article .content p {
+  text-align: justify;
+  text-indent: .9cm;
 }
 
 .article .content img {

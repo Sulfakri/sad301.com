@@ -7,6 +7,8 @@ template: article.jade
 
 Pada postingan kali ini, saya akan menuliskan sedikit tentang salah satu teknik parsing XML dengan menggunakan bahasa pemrograman java. Saya tidak akan menjelaskan secara mendetail tentang apa itu XML, selengkapnya bisa anda baca melalui website-website berikut :
 
+<span class="more"></span>
+
 * http://en.wikipedia.org/wiki/XML
 * http://www.w3schools.com/xml/
 

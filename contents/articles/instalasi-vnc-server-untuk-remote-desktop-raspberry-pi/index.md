@@ -7,6 +7,8 @@ template: article.jade
 
 Kita mulai dengan pertanyaan "apa itu _Remote Desktop_ ?" - Sederhananya, _remote desktop_ disini adalah fitur yang disediakan dalam perangkat lunak atau sistem operasi untuk menjalankan lingkungan _desktop_ pada satu perangkat komputer dan menampilkannya pada perangkat lain. Fitur _remote desktop_ ini akan bermanfaat bagi anda yang menggunakan Raspberry Pi (atau komputer lain) secara _headless_ atau tanpa monitor.
 
+<span class="more"></span>
+
 _Virtual Network Computing_ (VNC) sendiri adalah sistem _desktop sharing_ yang memungkinkan _user_ untuk mengontrol sebuah perangkat komputer dari perangkat lainnya. Dalam implementasinya, sistem VNC (dan sistem _remote desktop_ lainnya) akan berjalan pada jaringan komputer dan akan membutuhkan dua macam program, salah satunya berjalan di sisi _server_ (komputer yang akan di-_share_ desktopnya) dan yang lain berjalan di _client_ (perangkat yang akan mengakses desktop dari _server_).
 
 Disini kita akan menggunakan program [TightVNC](http://www.tightvnc.com) untuk memberikan akses ke desktop Raspbian dan program [VNC Viewer](https://www.realvnc.com) untuk menampilkan desktop Raspberry Pi di komputer yang kita gunakan. Untuk menginstall TightVNC di Raspbian ketikkan perintah dibawah pada aplikasi LXTerminal atau melalui terminal Putty.
