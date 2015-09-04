@@ -47,7 +47,7 @@ Content-Type: text/html
 
 Rangkaian proses diatas dapat diilustrasikan sebagai berikut :
 
-![text](https://lh3.googleusercontent.com/-W0J_93BPAqk/VNHw8G7MPoI/AAAAAAAAODI/wB0VV7eu08Q/s2048-Ic42/HTTP%252520Basic%252520Authentication.png)
+<p class="img-container"><img align="middle" src="https://lh3.googleusercontent.com/-W0J_93BPAqk/VNHw8G7MPoI/AAAAAAAAODI/wB0VV7eu08Q/s2048-Ic42/HTTP%252520Basic%252520Authentication.png" alt="text"/></p>
 
 Diantara pembaca mungkin ada yang bertanya kenapa cuma Base64 ? kenapa tidak dienkripsi ?. Sebenarnya _Basic Access Authentication_ ini memang lebih direkomendasikan untuk digunakan pada protokol HTTPS. Jika sekiranya anda membutuhkan metode yang lebih aman, lebih direkomendasikan menggunakan metode seperti [_Digest Access Authentication_](https://en.wikipedia.org/wiki/Digest_access_authentication) atau [OAuth](https://en.wikipedia.org/wiki/OAuth).
 

@@ -25,8 +25,8 @@ vncserver :0 -geometry 640x480 -depth 24
 
 Dari sini kita mulai bisa mengakses desktop Raspbian, jalankan aplikasi VNC Viewer pada komputer/laptop anda. Pada jendela aplikasi tersebut masukkan alamat IP dari Raspberry Pi kemudian klik tombol Connect (perhatikan gambar). Aplikasi kemudian akan meminta anda untuk memasukkan password, ketikkan password yang anda masukkan pada saat konfigurasi kemudian klik tombol OK.
 
-![text](https://lh3.googleusercontent.com/-kQ4gV9aInvw/VMnUfBUmmyI/AAAAAAAAOCk/r-aX-mkwaIk/s2048-Ic42/Untitled.png)
+<p class="img-container"><img src="https://lh3.googleusercontent.com/-kQ4gV9aInvw/VMnUfBUmmyI/AAAAAAAAOCk/r-aX-mkwaIk/s2048-Ic42/Untitled.png" alt="text"/></p>
 
 Dan hasilnya adalah sebagai berikut :
 
-![text](https://lh3.googleusercontent.com/-BFrkBE4oubo/VMnVM6qU2OI/AAAAAAAAOCs/WOVBEHntdu8/s2048-Ic42/Untitled.png)
+<p class="img-container"><img src="https://lh3.googleusercontent.com/-BFrkBE4oubo/VMnVM6qU2OI/AAAAAAAAOCs/WOVBEHntdu8/s2048-Ic42/Untitled.png" alt="text"/></p>

@@ -232,9 +232,23 @@ footer .copy, footer .copy a {
   text-indent: .9cm;
 }
 
+/* added by sadlie */
+.article .content .img-container {
+  text-align: center;
+}
+/* EOL */
+
+.article .content .img-container img {
+  display: inline;
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 500px;
+}
+
 .article .content img {
   display: block;
-  /*width: 100%;*/
+  width: 100%;
   /* --- modified by sadlie --- */
   height: auto;
   width: auto;
