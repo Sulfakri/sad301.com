@@ -11,7 +11,3 @@ Pria kelahiran 85 yang merangkap suami dan ayah. Akademisi IT yang hobby _ngopre
 Blog ini berisi catatan ringan tentang banyak hal, hampir sebagian besar tidak bermanfaat. Jika menurut anda sebaliknya, terserah anda saja :D.
 
 Blog ini dibuat dengan _engine_ [Wintersmith](http://wintersmith.io), _source code_ tersedia di [github](https://github.com/sad301/sad301.com).
-
-#### Untuk Mahasiswa
-
-Jika anda mahasiswa yang mengikuti mata kuliah saya, kemungkinan anda mencari [halaman ini](/lecture)

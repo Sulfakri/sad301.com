@@ -62,8 +62,7 @@ h3 {
 }
 
 ol, ul {
-  /*margin: 0 1.4em 1.4em 4em;*/
-	margin: 0 1.4em 1.4em 1.4em;
+  margin: 0 1.4em 1.4em 4em;
 }
 
 li {

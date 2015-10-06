@@ -4,6 +4,13 @@ author: sad301
 template: article.jade
 ---
 
-| Mata Kuliah			|
-|-----------------------|
-| Bahasa Pemrograman IV |
+**STMIK Catur Sakti**
+
+* Bahasa Pemrograman IV
+* Jaringan Komputer I
+* Sistem Terdistribusi
+
+**AMIK Catur Sakti**
+
+* Metodologi Berorientasi Objek &gt; [Daftar Nilai](http://www.yahoo.com)
+* Bahasa Pemrograman Berorientasi Objek
