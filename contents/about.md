@@ -4,10 +4,12 @@ view: none
 
 #### Tentang Penulis
 
-Pria kelahiran 85 yang merangkap suami dan ayah. Akademisi IT yang hobby _ngoprek_, dan _ngutak-atik_ tanpa tujuan yang jelas _(because why not ?)_. Suka dengar musik bising, nonton film, dan ngayuh sepeda. Hidup sederhana, apa adanya, tidak ada apa-apanya :D.
+Pria kelahiran 1985 yang merangkap suami dan ayah. Akademisi IT yang suka tanpa tujuan yang jelas. Suka dengar musik bising, nonton film, dan ngayuh sepeda. Hidup sederhana dan apa adanya.
 
 #### Tentang Blog
 
-Blog ini berisi catatan ringan tentang banyak hal, hampir sebagian besar tidak bermanfaat. Jika menurut anda sebaliknya, terserah anda saja :D.
+Blog ini berisi beragam artikel dan tulisan ringan tentang hasil _oprekan_, sekedar untuk catatan pribadi atau referensi bagi yang membutuhkan. Blog ini dibuat dengan _engine_ [Wintersmith](http://wintersmith.io), _source code_-nya bisa dilihat di [github](https://github.com/sad301/sad301.com).
 
-Blog ini dibuat dengan _engine_ [Wintersmith](http://wintersmith.io), _source code_ tersedia di [github](https://github.com/sad301/sad301.com).
+#### Kuliah & Mengajar
+
+Bagi Siswa & mahasiswa yang mengikuti perkuliahan atau mata pelajaran saya, silahkan lanjut ke [halaman ini](/lecture)

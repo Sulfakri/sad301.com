@@ -1,56 +1,50 @@
 ---
-title: MySQL CRUD With NodeJS
+title: MySQL CRUD Dengan NodeJS
 author: sad301
 date: 2015-09-03
 template: article.jade
 ---
 
-Have you ever wanted to access [MySQL][2] database from [NodeJS][1] app ? let's talk about it here. CRUD stands for Create, Retrieve, Update, and Delete. They were basic activities we usually do in MySQL database. Like _creating_ new record using `INSERT` command, _retrieving_ records using `SELECT`, _updating_ record using `UPDATE`, or _deleting_ record using `DELETE`.
+CRUD merupakan singkatan dari _Create_, _Retrieve_, _Update_, dan _Delete_. Keempatnya merupakan aktifitas dasar yang sering dilakukan dalam _Database Management System_ (DBMS).
 
-Before we start, we need to create a table for our example. Write these lines in an `.sql` file, let's name it `contact.sql`.
+<span class="more"></span>
+
+_Create_ adalah proses membuat (memasukkan) _record_ baru kedalam tabel database, dilakukan dengan menggunakan perintah `INSERT`. _Retrieve_ adalah proses mengambil (menampilkan) _record_ dengan menggunakan perintah `SELECT`. _Update_ adalah proses memperbaharui, dengan perintah `UPDATE`, dan _Delete_ adalah proses menghapus, dengan perintah `DELETE`.
+
+Sebelum kita masuk ke contoh program, mari kita mulai dengan membuat tabel sederhana pada DBMS MySQL. Ketikkan _script_ SQL berikut kemudian simpan dengan nama `sample.sql` :
 
 ```sql
-drop database if exists test;
-create database test;
-use test;
+DROP DATABASE IF EXISTS `sample`;	-- btw, kalo ada db dengan
+CREATE DATABASE `sample`;			-- nama yang sama silahkan
+USE `sample`;						-- dimodif sendiri
 
-create table contact (
-	id int not null auto_increment,
-	name varchar(32) not null,
-	address text,
-	phone varchar(15),
-	email varchar(15),
-	website varchar(15),
-	primary key (id)
+CREATE TABLE `kontak` (
+	id int not null auto_increment primary key,
+	nama varchar(128) not null,
+	alamat text,
+	no_telepon varchar(15),
+	website varchar(32),
+	email varchar(32)
 );
 ```
-
-And then, import the `.sql` file into MySQL using this command :
-
-```
-mysql -u [your username] -p < [sql file].sql
-```
-
-Before we begin coding our app, we need to install `mysql` package using the `npm` tool. For the reference you might want to visit the [github page][3].
+Oke sip, selebihnya kita tinggal meng-_import_ kode SQL sebelumnya ke dalam MySQL :
 
 ```
-npm install mysql
+mysql -u [user] -p [password] < sample.sql
 ```
 
-In your `.js` file, let's name it `mysqlApp.js`, declare to import `mysql` :
+Selanjutnya kita akan membuat aplikasi NodeJS yang akan mengakses database `sample` yang sudah dibuat sebelumnya. Disini kita hanya membuat aplikasi _command line_ dengan fungsi CRUD. Untuk aplikasi web dengan fungsi tersebut, akan saya coba bahas lain waktu.
+
+Sebelum kita mulai, aplikasi ini akan membutuhkan _package_ `node-mysql`. Untuk menginstall _package_ tersebut gunakan perintah dibawah :
+
+```
+npm install node-mysql
+```
+
+Sekarang kita mulai mengkodekan programnya, buatlah file Javascript baru dengan nama `app.js`. Didalamnya sebutkan deklarasi import untuk menggunakan package `node-mysql`.
 
 ```javascript
 var mysql = require('mysql');
-```
-
-And then, we need to create a connection to the database using `createConnection()` method. This method will require several options
-
-## Create Record
-
-Now, let's do stuff. First, we want to create a new record in the `contact` table, using MySQL `INSERT` command. Looking at the table structure, i bet you already know the SQL command :
-
-```sql
-INSERT INTO `contact`(`name`) VALUES ('John');
 ```
 
 [1]: http://nodejs.org "NodeJS"
