@@ -53,7 +53,7 @@ Diantara pembaca mungkin ada yang bertanya kenapa cuma Base64 ? kenapa tidak die
 
 Selanjutnya kita coba terapkan dalam kode program. Yang pertama, kita akan membutuhkan 3 macam halaman web, yaitu `index.html` sebagai halaman muka (ditampilkan jika autentikasi benar), halaman `401.html` ditampilkan pada saat autentikasi, dan `403.html` yang ditampilkan jika autentikasi gagal.
 
-Berikutnya kita akan mengetikkan `source code` Javascript untuk program server (kita berikan nama _file_ `server.js`). Dalam program ini kita akan membutuhkan dua macam _package_ yaitu `http`, karena program akan menggunakan protokol HTTP dan `fs` karena kita akan melayani _request_ menggunakan file HTML yang sudah dibuat sebelumnya.
+Berikutnya kita akan mengetikkan _source code_ Javascript untuk program server (kita berikan nama _file_ `server.js`). Dalam program ini kita akan membutuhkan dua macam _package_ yaitu `http`, karena program akan menggunakan protokol HTTP dan `fs` karena kita akan melayani _request_ menggunakan file HTML yang sudah dibuat sebelumnya.
 
 ```javascript
 var http = require('http');

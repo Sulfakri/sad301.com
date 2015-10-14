@@ -155,6 +155,18 @@ footer .contact {
   text-align: center;
 }
 
+footer .links {
+  border-top: 1px dashed #d2d2d2;
+  padding: 2.2em 3em;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+footer .links a {
+  text-decoration: none;
+  font-style: italic;
+}
+
 /*-- EOL --*/
 
 footer .about {

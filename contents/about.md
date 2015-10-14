@@ -8,8 +8,4 @@ Pria kelahiran 1985 yang merangkap suami dan ayah. Akademisi IT yang suka tanpa 
 
 #### Tentang Blog
 
-Blog ini berisi beragam artikel dan tulisan ringan tentang hasil _oprekan_, sekedar untuk catatan pribadi atau referensi bagi yang membutuhkan. Blog ini dibuat dengan _engine_ [Wintersmith](http://wintersmith.io), _source code_-nya bisa dilihat di [github](https://github.com/sad301/sad301.com).
-
-#### Kuliah & Mengajar
-
-Bagi Siswa & mahasiswa yang mengikuti perkuliahan atau mata pelajaran saya, silahkan lanjut ke [halaman ini](/lecture)
+Blog ini berisi beragam artikel dan tulisan ringan tentang hasil _oprekan_, sekedar untuk catatan pribadi atau referensi bagi yang membutuhkan. Blog ini dibuat dengan _engine_ [Wintersmith](http://wintersmith.io), _source code_ tersedia di [github](https://github.com/sad301/sad301.com).
