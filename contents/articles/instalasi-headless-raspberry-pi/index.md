@@ -19,8 +19,6 @@ Hardware dan software yang dibutuhkan antara lain :
 * <a href="https://www.sdcard.org/downloads/formatter_4/eula_windows/" target="_blank">SD Formatter</a> (untuk OS Windows)
 * <a href="https://sourceforge.net/projects/win32diskimager/" target="_blank">Win32 Disk Imager</a> (untuk OS Windows)
 
-Penjelasan untuk proses instalasi kita kelompokkan menjadi dua bagian, proses instalasi untuk pembaca yang menggunakan OS berbasis Linux dan Windows.
-
 Instalasi dengan OS Linux
 -------------------------
 
@@ -32,3 +30,7 @@ Setelah mengunduh file _image_ Raspbian dari websitenya, kita perlu mengekstrak 
 user@host:~$ unzip file.zip -d .
 ```
 
+Instalasi dengan OS Windows
+---------------------------
+
+Quick Brown Fox Jumps Over The Lazy Dog
