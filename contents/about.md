@@ -4,7 +4,7 @@ view: none
 
 #### Tentang Penulis
 
-Pria kelahiran 1985 yang merangkap suami dan ayah. Akademisi IT yang suka tanpa tujuan yang jelas. Suka dengar musik bising, nonton film, dan ngayuh sepeda. Hidup sederhana dan apa adanya.
+Pria kelahiran 1985 yang merangkap suami dan ayah. Akademisi IT yang suka tanpa tujuan yang jelas. Suka dengar musik bising, nonton film, main game, dan ngayuh sepeda. Hidup sederhana dan apa adanya.
 
 #### Tentang Blog
 
