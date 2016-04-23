@@ -27,8 +27,21 @@ Disini kita akan coba menginstall OS Raspbian kedalam Raspberry Pi dengan menggu
 Setelah mengunduh file _image_ Raspbian dari websitenya, kita perlu mengekstrak terlebih dahulu file unduhan tersebut, karena _image_ Raspbian biasanya didistribusikan dalam format file `.zip`. untuk ekstraksi kita bisa gunakan perintah `unzip` seperti dibawah ini :
 
 ```
-user@host:~$ unzip file.zip -d .
+user@host:~/Downloads$ unzip 2016-02-26-raspbian-jessie.zip -d .
 ```
+
+Langkah selanjutnya yang perlu dilakukan adalah menghapus partisi SD Card/MicroSD Card (jika ada) dan kemudian memformat ulang SD Card/MicroSD Card tersebut dengan _filesystem_ FAT32. Untuk tahap ini, kita bisa gunakan _tool_ `fdisk`.
+
+Sebelumnya, kita perlu tahu nama perangkat SD Card/MicroSD Card yang kita miliki
+
+```
+user@host:~$ ls -l /dev | grep mmc
+brw-rw----  1 root disk    179,   0 Apr 23 15:50 mmcblk0
+brw-rw----  1 root disk    179,   1 Apr 23 15:50 mmcblk0p1
+brw-rw----  1 root disk    179,   2 Apr 23 15:50 mmcblk0p2
+```
+
+
 
 Instalasi dengan OS Windows
 ---------------------------
